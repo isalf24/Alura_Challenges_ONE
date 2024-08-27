@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="logo_alura" src="Assets/alura_logo_png.png" alt="logo de alura">
+    <img class="flechas" src="Assets/flechas.png" alt="flechas">
+<main>
+    <section>
+        <h1 class="Titulo_principal"> Alura Challenges ONE </h1>
+        <p class="Presentacion_de_proyecto"> ¡Bienvenido(a) al Encriptador de Texto!
+            Protege y asegura tus datos con nuestra herramienta confiable, diseñada para garantizar la confidencialidad y la integridad de tu información.
+        </p>
+
+        <h2 class="resultado"> Mira tu Resultado Aqui </h2>
+        
+        <textarea class="text-area" cols="30" rows="10" placeholder="Por Favor Ingrese su texto aqui"></textarea>
+        <div>
+            <h6 class="informacion">Por Favor solo utiliza letras minúsculas y sin acentos</h6>
+        </div>
+        <div class="botones">
+            <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button>
+            <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+        </div>
+    </section>
+
+<section>
+    <textarea class="mensaje" cols="30" rows="11" id="myOutput"></textarea>
+    <div>
+        <button class="boton-copiar" onclick="copyText()">Copiar</button>
+    </div>
+
+
+</section>
+
+</main>
+<script src="scripts.js"></script>
+
+<footer>
+    <div class="presentacion__enlaces">
+        <h2>Accede a mis redes:</h2>
+            <a href="https://www.linkedin.com/in/isaias-medina-89a1a4137/">
+                <img class="lk" src="Assets/linkedin.png" alt="Logo de linkedin"></a>
+            <a class="presentacion__enlaces__link" href="https://github.com/isalf24">
+                <img class="gh" src="Assets/github.png" alt="Logo de github"></a>
+                <p class="footer"> <strong>Desarrollado por:</strong> Isaias Medina</p>
+    </div>
+    
+</footer>
+</body>
+</html>

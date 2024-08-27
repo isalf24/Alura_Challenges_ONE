@@ -1,0 +1,221 @@
+body {
+    background-color: #F3F5FC;
+    font-family: var(--fuente-inter);
+    font-weight: 400;
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+
+.logo_alura {
+    width: 120px;
+    height: 70px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3.125rem;
+    margin-left: 5rem;
+    }
+
+    .text-area{
+        background: white;
+    background-image: url("assets/Muneco1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  /* Cambié contain por cover para asegurar que la imagen cubra el área del fondo */
+    background-position: center;
+    border: none;
+    border-radius: 32px;    /* Corner radius de 32px */
+    color: #0A3871;
+    margin-top: 9.49rem;
+    font-size: 1.3rem;
+    width: 400px;            /* Ancho de 400 píxeles */
+    height: 600px;           /* Altura de 944 píxeles */
+    position: absolute;      
+    top: 60px;               
+    left: 150px; ;
+
+    text-transform: lowercase;
+    font-size: 1.38rem;
+    
+    }
+
+    ::placeholder{
+        color: #0A3871;
+    }
+
+    .text-area:focus{
+        outline: none;
+    }
+
+    .Titulo_principal{
+        color: #0A3871;
+        font-size: 4.125rem; 
+        position: absolute;
+        top: -50px; /* Alinea verticalmente con el otro botón */
+        left: 550px; /* Ajusta la posición horizontal según tu diseño */ 
+
+    }
+
+    .Presentacion_de_proyecto{
+        font-size: 1.5rem;
+        position: absolute;
+        top: 85px; /* Alinea verticalmente con el otro botón */
+        left: 110px; /* Ajusta la posición horizontal según tu diseño */ 
+    }
+
+    /* Asegúrate de que el nombre del selector sea válido. Debe ser una clase, ID o etiqueta HTML válida. Aquí usamos una clase .mensaje */
+.mensaje {
+    background: white;
+    background-image: url("assets/Muneco1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  /* Cambié contain por cover para asegurar que la imagen cubra el área del fondo */
+    background-position: center;
+    border: none;
+    border-radius: 32px;    /* Corner radius de 32px */
+    color: #0A3871;
+    margin-top: 9.49rem;
+    font-size: 1.3rem;
+    width: 400px;            /* Ancho de 400 píxeles */
+    height: 600px;           /* Altura de 944 píxeles */
+    position: absolute;      /* Para permitir posicionamiento específico si es necesario */
+    top: 60px;               /* Posición vertical desde el borde superior */
+    left: 1100px;             /* Posición horizontal desde el borde izquierdo */
+}
+
+
+    .mensaje:focus{
+        outline: none;
+    }
+
+    .botones{
+        display: flex;
+        margin-top: 1.125rem;
+    }
+
+    .boton-desencriptar, .btn-encriptar, .btn-copiar {
+        background-color: #0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 1.5rem;
+        color: white;
+        cursor: pointer;
+        height: 3.5rem;
+        width: 18rem;
+        transition: background-color 0.3s, color 0.3s;
+        position: absolute;
+        top: 838px; /* Ajusta la altura según tu diseño */
+        left: 350px; /* Ajusta la posición horizontal según tu diseño */
+    }
+    
+
+    .boton-encriptar {
+        background-color: #0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 1.5rem;
+        color: white;
+        cursor: pointer;
+        height: 3.5rem;
+        width: 18rem;
+        transition: background-color 0.3s, color 0.3s;
+        position: absolute;
+        top: 838px; /* Ajusta la altura según tu diseño */
+        left: 50px; /* Ajusta la posición horizontal según tu diseño */
+    }
+
+    .boton-desencriptar:hover, .btn-encriptar:hover, .btn-copiar:hover {
+        background-color: #D8DFE8;
+        color: #0A3871;
+    }
+
+    .boton-encriptar:hover, .btn-encriptar:hover, .btn-copiar:hover {
+        background-color: #D8DFE8;
+        color: #0A3871;
+}
+    .boton-copiar {
+        background-color: #0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 1.5rem;
+        color: white;
+        cursor: pointer;
+        height: 3.5rem;
+        width: 18rem;
+        transition: background-color 0.3s, color 0.3s;
+        position: absolute;
+        top: 838px; /* Alinea verticalmente con el otro botón */
+        left: 1155px; /* Ajusta la posición horizontal según tu diseño */
+    }
+    
+    .boton-copiar:hover, .btn-encriptar:hover, .btn-copiar:hover {
+        background-color: #D8DFE8;
+        color: #0A3871;
+}
+    .informacion {
+        color: #495057;
+        font-size: 1.125rem; 
+        position: absolute;
+        top: 770px; /* Alinea verticalmente con el otro botón */
+        left: 150px; /* Ajusta la posición horizontal según tu diseño */
+    }
+    
+
+    .flechas {
+
+        font-size: 1.125rem; 
+        position: absolute;
+        top: 470px; /* Alinea verticalmente con el otro botón */
+        left: 720px; /* Ajusta la posición horizontal según tu diseño */
+        width: 220px;
+        height: 70px;
+        
+
+    }
+
+    .resultado {
+        color: #0A3871;
+        font-size: 2.125rem; 
+        position: absolute;
+        top: 380px; /* Alinea verticalmente con el otro botón */
+        left: 650px; /* Ajusta la posición horizontal según tu diseño */ 
+        
+    }
+
+.presentacion__enlaces {
+
+    height: 3.5rem;
+        width: 18rem;
+        font-size: 2.0rem; 
+        transition: background-color 0.3s, color 0.3s;
+        position: absolute;
+        top: 280px; /* Alinea verticalmente con el otro botón */
+        left: 1600px; /* Ajusta la posición horizontal según tu diseño */
+    }
+
+    .lk {
+        width: 80px;
+        height: 70px;
+       
+    }
+
+    .gh {
+        width: 80px;
+        height: 70px;
+        
+        
+    }
+    .footer {
+        color: #0A3871 
+        
+        
+    }
+        
+    @media (max-width: 1200px) {
+        .Titulo_principal{
+            flex-direction: column-reverse;
+            padding: 5%;
+            
+        }
+
+    }
