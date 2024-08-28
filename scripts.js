@@ -8,7 +8,6 @@ function botonEncriptar() {
     output.value = encryptedText;
 }
 
-
 function botonDesencriptar() {
     const textarea = document.querySelector('.text-area');
     const output = document.querySelector('#myOutput');
@@ -21,13 +20,11 @@ function botonDesencriptar() {
     output.value = decryptedText;
 }
 
-
 function copyText() {
     const output = document.querySelector('#myOutput');
     output.select();
     document.execCommand('copy');
 }
-
 
 function encriptarTexto(texto) {
     return texto
@@ -35,15 +32,14 @@ function encriptarTexto(texto) {
         .replace(/e/g, "c3")
         .replace(/i/g, "d1")
         .replace(/o/g, "f0")
-        .replace(/u/g, "gu");
+        .replace(/u/g, "g#u");
 }
 
 function desencriptarTexto(texto) {
     return texto
-        .replace(/b@/g, "a")
-        .replace(/c3/g, "e")
-        .replace(/d1/g, "i")
+        .replace(/g#u/g, "u")
         .replace(/f0/g, "o")
-        .replace(/gu/g, "u");
+        .replace(/d1/g, "i")
+        .replace(/c3/g, "e")
+        .replace(/b@/g, "a");
 }
-
